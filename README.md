@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 QueryMind AI
 
-## Getting Started
+**QueryMind AI** is an intelligent AI-powered assistant that allows users to chat with structured data (SQL databases) using natural language. It bridges the gap between human language and databases, enabling both non-technical and technical users to query data effortlessly.
 
-First, run the development server:
+Built with **Next.js**, **OpenAI**, **SQLite**, and **Drizzle ORM**, QueryMind AI converts user questions into SQL queries, executes them securely, and returns meaningful insights in real time.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 💬 Chat with SQL databases using natural language  
+- 🤖 AI-powered SQL query generation  
+- 🔐 Secure query execution  
+- ⚡ Real-time responses  
+- 🧩 Clean and intuitive chat-based UI  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧩 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. The user enters a natural language query  
+2. The query is sent to the OpenAI API  
+3. AI converts the query into a valid SQL statement  
+4. The SQL query runs safely on the SQLite database  
+5. Results are formatted and returned in the chat UI  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+- **Frontend**: Next.js  
+- **AI**: OpenAI API  
+- **Database**: SQLite  
+- **ORM**: Drizzle ORM  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📌 Use Cases
+
+- Data exploration without writing SQL  
+- Internal tools for teams  
+- Learning SQL through natural language  
+- Rapid database insights for non-developers  
+
+---
+
