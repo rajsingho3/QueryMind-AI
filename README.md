@@ -30,8 +30,9 @@ Built with **Next.js**, **OpenAI**, **SQLite**, and **Drizzle ORM**, QueryMind A
 
 - **Frontend**: Next.js  
 - **AI**: OpenAI API  
-- **Database**: SQLite  
+- **Database**: SQLite (Tusro) 
 - **ORM**: Drizzle ORM  
+- **Deployment**: Vercel
 
 ---
 
